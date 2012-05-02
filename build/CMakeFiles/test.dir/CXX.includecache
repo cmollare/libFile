@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/christophe/libFiles/src/HierarchDir.cpp
+HierarchDir.h
+/home/christophe/libFiles/src/HierarchDir.h
+
+/home/christophe/libFiles/src/HierarchDir.h
+iostream
+-
+fstream
+-
+sstream
+-
+string
+-
+dirent.h
+-
+vector
+-
+stdio.h
+-
+stdlib.h
+-
+sys/types.h
+-
+
+/home/christophe/libFiles/src/test.cpp
+iostream
+-
+vector
+-
+exception
+-
+HierarchDir.h
+/home/christophe/libFiles/src/HierarchDir.h
+
